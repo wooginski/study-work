@@ -6,7 +6,7 @@ public class Operands : MonoBehaviour
 {
     public int numberOne = 3; // my first number to use
     public int numberTwo = 4; // my second number to use
-    public int result = 0 // the result of my operations to the next set of numbers.
+    public int result = 0; // the result of my operations to the next set of numbers.
 
     // Start is called before the first frame update
     void Start()
