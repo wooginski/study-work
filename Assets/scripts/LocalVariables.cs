@@ -27,7 +27,7 @@ public class LocalVariables : MonoBehaviour
         //check to see if my name is noah and print out the current value
         if(myName == "Noah")
         {
-            Debug.Log("Current health is: " + myHealth + " the temp health is " + temporaryHealth);
+            Debug.Log("Michael is : " + myHealth + " the temp health is " + temporaryHealth);
         }
 
 
