@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - GameFunctions
     - Player
     - SceneManagement
+    - SummaryScript
     - Tackle
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -31,6 +32,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.RawImage
   serializedClasses:
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
@@ -93,13 +95,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5146}
     - Class: 114
-      Script: {instanceID: 5716}
+      Script: {instanceID: 5348}
     - Class: 114
-      Script: {instanceID: 5878}
+      Script: {instanceID: 5718}
     - Class: 114
-      Script: {instanceID: 6208}
+      Script: {instanceID: 5880}
     - Class: 114
-      Script: {instanceID: 26102}
+      Script: {instanceID: 6210}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -168,17 +170,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5146}
     - Class: 114
-      Script: {instanceID: 5684}
+      Script: {instanceID: 5686}
     - Class: 114
-      Script: {instanceID: 5716}
+      Script: {instanceID: 5718}
     - Class: 114
-      Script: {instanceID: 5730}
+      Script: {instanceID: 5732}
     - Class: 114
-      Script: {instanceID: 5878}
+      Script: {instanceID: 5880}
     - Class: 114
-      Script: {instanceID: 6062}
+      Script: {instanceID: 6064}
     - Class: 114
-      Script: {instanceID: 6208}
+      Script: {instanceID: 6210}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -188,6 +190,57 @@ ScriptsOnlyBuild:
     - Class: 196
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Summary.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 2336}
+    - Class: 114
+      Script: {instanceID: 2638}
+    - Class: 114
+      Script: {instanceID: 2852}
+    - Class: 114
+      Script: {instanceID: 4592}
+    - Class: 114
+      Script: {instanceID: 5146}
+    - Class: 114
+      Script: {instanceID: 5718}
+    - Class: 114
+      Script: {instanceID: 5880}
+    - Class: 114
+      Script: {instanceID: 6210}
+    - Class: 114
+      Script: {instanceID: 34894}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -342,7 +395,7 @@ ScriptsOnlyBuild:
     className: CoroutineRunner
   - hash:
       serializedVersion: 2
-      Hash: 08d09a0eff622e4d74ee365d9626fc9d
+      Hash: 8cf5d00ecca5f2ebad30f257e81ecb5d
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GameFunctions
@@ -606,7 +659,7 @@ ScriptsOnlyBuild:
     className: UnityOnCancelMessageListener
   - hash:
       serializedVersion: 2
-      Hash: e63d9297bb0e7cd47919a2cb459898b9
+      Hash: 2b501e822cd89626081b7254699b2bfb
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Player
@@ -732,6 +785,12 @@ ScriptsOnlyBuild:
     className: PanelEventHandler
   - hash:
       serializedVersion: 2
+      Hash: 29c9839961a739c79f4e989eef7531be
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EndGameScript
+  - hash:
+      serializedVersion: 2
       Hash: 9dd54ce33440072d6692a67e0c384ad1
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -768,7 +827,7 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
-      Hash: 8f227e0d4152f2e9b32a0c72b7399bd8
+      Hash: 8bc531c42a502ebfaae3c515e458e05e
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Enemies
@@ -1050,12 +1109,19 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 29c9839961a739c79f4e989eef7531be
+      Hash: fd2b54319708c70f3615bfcfef04c7e2
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: EndGameScript
+    className: TackelButtonScript
+  - hash:
+      serializedVersion: 2
+      Hash: cef6795812ce485520a77be32e3a7e22
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SummaryScript
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/EndScreen.unity
+  - Assets/Scenes/Summary.unity
   playerPath: C:/Users/Noah/Documents/study-work/My project/BUILD/My project.exe

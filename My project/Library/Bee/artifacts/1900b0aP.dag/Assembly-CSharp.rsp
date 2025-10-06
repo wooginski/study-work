@@ -312,6 +312,8 @@
 "Assets/script/Enemies.cs"
 "Assets/script/GameFunctions.cs"
 "Assets/script/Player.cs"
+"Assets/script/TackelButtonScript.cs"
+"Assets/SummaryScript.cs"
 "Assets/Tackle.cs"
 -langversion:9.0
 /deterministic

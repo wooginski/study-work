@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Tackle : MonoBehaviour
 {
@@ -14,5 +15,9 @@ public class Tackle : MonoBehaviour
     void Update()
     {
         
+    }
+    void Press()
+    {
+        Input.GetKey(KeyCode.A);
     }
 }
